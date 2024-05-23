@@ -33,3 +33,51 @@ header {
   text-align: center;
   padding-top: 25px;
 }
+
+.rumus{
+  text-align: center;
+}
+
+input{
+  width: 100%;
+}
+
+.hitung{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tengah{
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.tengah:hover{
+  background-color: green;
+}
+
+.reset{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.kanan{
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+
+}
+
+.kanan:hover{
+  background-color: red;
+}

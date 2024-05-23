@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Website Kalkulator Matematik (Segitiga)</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
+      <!-- Judul -->
       <h1>Welcome to Katik</h1>
       <section>
         <p>
@@ -22,31 +23,73 @@
           <h4>Segitiga</h4>
         </div>
 
-        <div>
-          <button type="button" id="jajargenjang">Jajar Genjang</button>
-        </div>
-
+        <button type="button" id="jajargenjang">Jajar Genjang</button>
+        
         <section>
-          <div class="section-content">
-            <h1>Luas Segitiga</h1>
-          </div>
+          <section>
+            <!-- Ini Title Utama -->
+            <div class="section-content">
+              <h1>Luas Segitiga</h1>
+            </div>
+          </section>
         </section>
-      </section>
-    </header>
-
-    <section>
-      <div class="image">
-        <img src="/asset/segitiha.jpg">
-      </div>
-
+      </header>
+  
       <section>
-        <p>
-          Rumus Luas Segitiga yaitu : <br> 
-          <b>L = 1/2 x a x t</b><br>
-          Dimana : <br>
-          
-        </p>
-      </section>
-    </section>
+        <!-- Ini Gambar -->
+        <div class="image">
+          <img src="/asset/segitiha.jpg">
+        </div>
+  
+        <section>
+          <!-- Ini Rumus -->
+          <p>
+            Rumus Luas Segitiga yaitu : <br> 
+              <p class="rumus"><b>L = 1/2 x a x t </b></p>
+            Dimana : <br>
+            L = Luas <br>
+            a = Alas <br>
+            t = Tinggi
+          </p>
+          </section>
+          <hr> 
+          <section>
+            <!-- Ini Sub Title -->
+            <header>
+              <h2>
+                Hitung Luas Segitiga
+              </h2>
+            </header>
+
+            <form>
+              <section>
+                <!-- Ini Label Input -->
+                <div>
+                  <label>Alas :</label><input id="alas" type="number"/>
+                </div>
+                
+                <div>
+                  <label>Tinggi :</label><input id="tinggi" type="number"/>
+                </div>
+              </section>
+
+              <p id="Luas"></p>
+              <p id="proses"></p>
+
+              <!-- Ini Button -->
+              <div class="hitung">
+                <button class="tengah" type="button" id="hitung">Hitung</button>
+              </div>
+              
+              <div class="reset">
+                <button class="kanan" type="button" id="reset">Reset</button>
+              </div>
+              
+            </form>
+          </section>
+    </section> 
+    
+    <!-- Script JS -->
+    <script src="./js/script.js"></script>
   </body>
 </html>
