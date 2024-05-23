@@ -23,7 +23,8 @@
           <h4>Segitiga</h4>
         </div>
 
-        <button type="button" id="jajargenjang">Jajar Genjang</button>
+        <button type="button" id="switch">Switch To Keliling</button>
+
         
         <section>
           <section>
@@ -87,6 +88,75 @@
               
             </form>
           </section>
+
+          <!-- Ini Keliling -->
+          <section id="keliling-section">
+            <section>
+              <!-- Ini Title Utama -->
+              <div class="section-content">
+                <h1>Keliling Segitiga</h1>
+              </div>
+            </section>
+          </section>
+        </header>
+    
+        <section>
+          <!-- Ini Gambar -->
+          <div class="image">
+            <img src="/asset/segitiha.jpg">
+          </div>
+    
+          <section>
+            <!-- Ini Rumus -->
+            <p>
+              Rumus Keliling Segitiga yaitu : <br> 
+                <p class="rumus"><b>K = s1 + s2 + s3 </b></p>
+              Dimana : <br>
+              K = Keliling <br>
+              s1 = Sisi A <br>
+              s2 = Sisi B <br>
+              s3 = Sisi C
+            </p>
+            </section>
+            <hr> 
+            <section>
+              <!-- Ini Sub Title -->
+              <header>
+                <h2>
+                  Hitung Keliling Segitiga
+                </h2>
+              </header>
+  
+              <form>
+                <section>
+                  <!-- Ini Label Input -->
+                  <div>
+                    <label>Sisi A :</label><input id="SisiA" type="number"/>
+                  </div>
+                  
+                  <div>
+                    <label>Sisi B :</label><input id="SisiB" type="number"/>
+                  </div>
+
+                  <div>
+                    <label>Sisi C :</label><input id="SisiC" type="number"/>
+                  </div>
+                </section>
+  
+                <p id="keliling"></p>
+                <p id="prosesKel"></p>
+  
+                <!-- Ini Button -->
+                <div class="hitung">
+                  <button class="tengah" type="button" id="hitungKel">Hitung</button>
+                </div>
+                
+                <div class="reset">
+                  <button class="kanan" type="button" id="resetKel">Reset</button>
+                </div>
+                
+              </form>
+            </section>
     </section> 
     
     <!-- Script JS -->
